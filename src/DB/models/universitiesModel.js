@@ -1,7 +1,7 @@
-const mongoose = require('mongoose');
-const mongoosePaginate = require('mongoose-paginate');
+const mongoose = require('mongoose')
+const mongoosePaginate = require('mongoose-paginate')
 
-const { Schema } = mongoose;
+const { Schema } = mongoose
 
 const universitie = new Schema({
   domains: [String], 
@@ -15,4 +15,4 @@ const universitie = new Schema({
 
 universitie.plugin(mongoosePaginate)
 
-module.exports = mongoose.model('Universities', universitie);
+module.exports = mongoose.model('Universities', universitie)

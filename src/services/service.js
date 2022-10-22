@@ -5,7 +5,7 @@ const saveFromApi = async(universities,country) => {
         await universitieModel.deleteMany({country,fromApi:true}).exec()
         return universitieModel.insertMany(universities).exec()
     }catch(err){
-        throw new Error(err);
+        throw new Error(err)
     }
 }
 

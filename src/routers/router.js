@@ -14,4 +14,4 @@ router.put('/universities/:id' , controller.alterUniversitie)
 
 router.delete('/universities/:id', controller.deleteUniversitie)
 
-module.exports = router;
+module.exports = router

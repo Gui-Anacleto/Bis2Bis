@@ -18,10 +18,13 @@ Node v16.17.0 instalado
 
 ## Connection
 
-É necessario criar uma banco no MongoDB e colocar a sring de conexão no arquivo .env.
+Para o exercício foi criado um banco de dados a partir do MongoDB Atlas.
+
+Configure a conexao com o banco trocando a string de conexão no arquivo .env.
 
 ## Run the app
 
+    npm install
     npm start
 
 ## GET

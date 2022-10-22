@@ -9,8 +9,10 @@ Foi adicionada uma propriedade a mais "fromApi", para saber quais universidade f
 Npm 8.3.0 instalado
 
 Node v16.17.0 instalado
-
+    
+    npm install
     npm install express@4.17.3
+    npm install mongoose
     npm install nodemon@2.0.15 -D
     npm install axios
     npm install dotenv
@@ -23,8 +25,7 @@ Para o exercício foi criado um banco de dados a partir do MongoDB Atlas.
 Configure a conexao com o banco trocando a string de conexão no arquivo .env.
 
 ## Run the app
-
-    npm install
+    
     npm start
 
 ## GET
